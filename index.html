@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="title">
+<header><h1 class="display-4 fw-bold">Minha Lista de Tarefas</h1></header>
+<p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+</div>
+<body>
+    <div class="container">
+        <h4>Escreva a tarefa e clique em "Criar tarefa"</h4>
+        
+    <input id="texto-tarefa">
+    <ol class="mt-2" id="lista-tarefas">
+
+    </ol>
+    <div class="btn-group" role="botoes" aria-label="Basic example"></div>
+    <button class="btn btn-primary my-1" id="criar-tarefa">Criar tarefa</button>
+    <button class="btn btn-primary my-1" id="apaga-tudo">Apagar tudo</button>
+    <button class="btn btn-primary my-1" id="remover-finalizados">Remover finalizados</button>
+    <button class="btn btn-primary my-1" id="salvar-tarefas">Salvar tarefas</button>
+    <button class="btn btn-primary my-1" id="mover-cima">Mover para cima</button>
+    <button class="btn btn-primary my-1" id="mover-baixo">Mover para baixo</button>
+    <button class="btn btn-primary my-1" id="remover-selecionado">Remover item selecionado</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
